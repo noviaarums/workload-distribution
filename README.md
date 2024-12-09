@@ -38,6 +38,7 @@ Running the Project on Google Colab
    - Firstly execute reviewFetch.ipynb and commitFetch.ipynb files by writing down the address of GitHub repository project that will be analyzed in the provided space.
    - Secondly, in the second code cell of both reviewFetch.ipynb and commitFetch.ipynb, replace the GitHub token space with your own token (you can get it in your own GitHub account).
    - After that, there will be results in CSV files contain review and commit data.
+   - If you want use the CSV files of GitHub repository in this project, you can use the files in CSV files.zip directly. But, if you want to analyze another repository, feel free to do the fetching process first to get the CSV files of it.
    - Upload those CSV files into each other python files for getting the visualization charts and other useful information about numbers to analysis process.
    - reviewVisualization.ipynb and commitVisualization.ipynb will give visualization about review and commit distribution respectively throughout the project history. And for getting the visualization in “the last year” or a specific year, the last code cell will provide it.
    - contributors.ipynb will give visualization of combination between review and commits work happened in the project history.
